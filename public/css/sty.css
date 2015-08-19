@@ -1,0 +1,180 @@
+@import url(http://fonts.googleapis.com/css?family=Croissant+One); /* este es de google fonts */
+
+
+
+header{
+
+
+	background-image: url("../img/header.jpg");
+	min-height: 100vh; /* la altura minima de la imagen  */
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+
+.foo{
+	color: white;
+font-family: 'Croissant One', cursive;
+
+}
+
+
+
+footer{
+
+background: rgba(43,43,43,1);
+background: -moz-linear-gradient(left, rgba(43,43,43,1) 0%, rgba(89,89,89,1) 0%, rgba(28,28,28,1) 0%, rgba(29,29,29,1) 1%, rgba(102,102,102,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(43,43,43,1)), color-stop(0%, rgba(89,89,89,1)), color-stop(0%, rgba(28,28,28,1)), color-stop(1%, rgba(29,29,29,1)), color-stop(100%, rgba(102,102,102,1)));
+background: -webkit-linear-gradient(left, rgba(43,43,43,1) 0%, rgba(89,89,89,1) 0%, rgba(28,28,28,1) 0%, rgba(29,29,29,1) 1%, rgba(102,102,102,1) 100%);
+background: -o-linear-gradient(left, rgba(43,43,43,1) 0%, rgba(89,89,89,1) 0%, rgba(28,28,28,1) 0%, rgba(29,29,29,1) 1%, rgba(102,102,102,1) 100%);
+background: -ms-linear-gradient(left, rgba(43,43,43,1) 0%, rgba(89,89,89,1) 0%, rgba(28,28,28,1) 0%, rgba(29,29,29,1) 1%, rgba(102,102,102,1) 100%);
+background: linear-gradient(to right, rgba(43,43,43,1) 0%, rgba(89,89,89,1) 0%, rgba(28,28,28,1) 0%, rgba(29,29,29,1) 1%, rgba(102,102,102,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b2b2b', endColorstr='#666666', GradientType=1 );
+	
+min-height: 120px;
+
+
+
+}
+
+
+.guillo{
+
+	background: rgba(43,43,43,1);
+background: -moz-linear-gradient(left, rgba(43,43,43,1) 0%, rgba(89,89,89,1) 0%, rgba(28,28,28,1) 0%, rgba(29,29,29,1) 1%, rgba(102,102,102,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(43,43,43,1)), color-stop(0%, rgba(89,89,89,1)), color-stop(0%, rgba(28,28,28,1)), color-stop(1%, rgba(29,29,29,1)), color-stop(100%, rgba(102,102,102,1)));
+background: -webkit-linear-gradient(left, rgba(43,43,43,1) 0%, rgba(89,89,89,1) 0%, rgba(28,28,28,1) 0%, rgba(29,29,29,1) 1%, rgba(102,102,102,1) 100%);
+background: -o-linear-gradient(left, rgba(43,43,43,1) 0%, rgba(89,89,89,1) 0%, rgba(28,28,28,1) 0%, rgba(29,29,29,1) 1%, rgba(102,102,102,1) 100%);
+background: -ms-linear-gradient(left, rgba(43,43,43,1) 0%, rgba(89,89,89,1) 0%, rgba(28,28,28,1) 0%, rgba(29,29,29,1) 1%, rgba(102,102,102,1) 100%);
+background: linear-gradient(to right, rgba(43,43,43,1) 0%, rgba(89,89,89,1) 0%, rgba(28,28,28,1) 0%, rgba(29,29,29,1) 1%, rgba(102,102,102,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b2b2b', endColorstr='#666666', GradientType=1 );
+	
+min-height: 120px;
+}
+
+.navi{
+
+	background: rgba(43,43,43,1);
+background: -moz-linear-gradient(left, rgba(43,43,43,1) 0%, rgba(89,89,89,1) 0%, rgba(28,28,28,1) 0%, rgba(29,29,29,1) 1%, rgba(102,102,102,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(43,43,43,1)), color-stop(0%, rgba(89,89,89,1)), color-stop(0%, rgba(28,28,28,1)), color-stop(1%, rgba(29,29,29,1)), color-stop(100%, rgba(102,102,102,1)));
+background: -webkit-linear-gradient(left, rgba(43,43,43,1) 0%, rgba(89,89,89,1) 0%, rgba(28,28,28,1) 0%, rgba(29,29,29,1) 1%, rgba(102,102,102,1) 100%);
+background: -o-linear-gradient(left, rgba(43,43,43,1) 0%, rgba(89,89,89,1) 0%, rgba(28,28,28,1) 0%, rgba(29,29,29,1) 1%, rgba(102,102,102,1) 100%);
+background: -ms-linear-gradient(left, rgba(43,43,43,1) 0%, rgba(89,89,89,1) 0%, rgba(28,28,28,1) 0%, rgba(29,29,29,1) 1%, rgba(102,102,102,1) 100%);
+background: linear-gradient(to right, rgba(43,43,43,1) 0%, rgba(89,89,89,1) 0%, rgba(28,28,28,1) 0%, rgba(29,29,29,1) 1%, rgba(102,102,102,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b2b2b', endColorstr='#666666', GradientType=1 );
+	
+
+
+
+}
+
+.hide{
+
+	display: none;
+}
+
+.blur{
+
+
+	min-height: inherit;
+	background-color: rgba(0,0,0,.5);
+
+}
+
+section{
+
+	height: auto;
+	padding-top: 65px;
+}
+
+#title{
+
+	font-size: 5em;
+	color: white;
+	text-align: center;
+	padding-top: 100px;
+	font-family: 'Croissant One', cursive;
+}
+
+
+.letra{
+
+	font-family: 'Croissant One', cursive;
+}
+
+#subtitle {
+
+
+	font-size: 2.5em;
+	color: white;
+	text-align: center;
+	
+	font-family: 'Croissant One', cursive;
+}
+
+.btn-web{
+    background-color: transparent;
+	border:1px solid white;
+	color: white;
+	margin-top: 3%;
+	-webkit-transtition: background-color 1s, border 1s;
+	-moz-transtition:background-color 1s, border 1s;
+	-o-transtition:background-color 1s, border 1s;
+
+
+}
+
+.btn-web:hover{
+
+
+	background-color: white;
+	border: 5px solid white;
+	color: blue;
+	-webkit-transtition: background-color 1s, border 1s;
+	-moz-transtition:background-color 1s, border 1s;
+	-o-transtition:background-color 1s, border 1s;
+	cursor: pointer;
+}
+
+
+.ancho{
+
+	min-height: 500px;
+	max-height: 500px;
+}
+
+@media(max-width: 500px){
+ #title{
+
+	font-size: 3em;
+	color: white;
+	text-align: center;
+	padding-top: 100px;
+	font-family: 'Croissant One', cursive;
+}
+
+#subtitle {
+
+
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+	
+	font-family: 'Croissant One', cursive;
+}
+
+
+header{
+
+
+	background-image: url('https://download.unsplash.com/photo-1429051883746-afd9d56fbdaf');
+	min-height: 100vh; /* la altura minima de la imagen  */
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+
+}
+
